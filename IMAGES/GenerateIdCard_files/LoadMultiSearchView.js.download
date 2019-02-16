@@ -1,0 +1,147 @@
+﻿function fnloadMultiSearchJob() {
+
+    $.ajax({
+
+        url: "LoadMultiSearchPartialView",
+        dataType: "html",
+        type: "POST",
+        data: "",
+        contentType: "application/json; charset=utf-8",
+        success:
+        function (data) {
+            $("#MultiSearchblock").html(data);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+       
+        }
+    });
+}
+function fnloadTopCompanyLogo() {
+   
+
+    $.ajax({
+
+        url: "LoadTopCompanyLogo",
+        dataType: "html",
+        type: "POST",
+        data: "",
+        contentType: "application/json; charset=utf-8",
+        success:
+        function (data) {
+           
+           
+            $("#topcomp").html(data);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+           
+           
+        }
+    });
+}
+function fnloadCurrentJobs() {
+
+    $.ajax({
+
+        url: "StudentHomeCurrrentJobs",
+        dataType: "html",
+        type: "POST",
+        data: "",
+        contentType: "application/json; charset=utf-8",
+        success:
+        function (data) {
+            $("#divCurrentJobs").html(data);
+            fnloadCurrentInternships();
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+        }
+    });
+    
+}
+function fnloadCurrentInternships() {
+
+    $.ajax({
+
+        url: "StudentHomeCurrentInternships",
+        dataType: "html",
+        type: "POST",
+        data: "",
+        contentType: "application/json; charset=utf-8",
+        success:
+        function (data) {
+            $("#divCurrentInternships").html(data);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+        }
+    });
+}
+function fnloadStudentHomeProfile() {
+
+    $.ajax({
+
+        url: "StudentHomeProfile",
+        dataType: "html",
+        type: "POST",
+        data: "",
+        contentType: "application/json; charset=utf-8",
+        success:
+        function (data) {
+            $("#divStudentHomeProfile").html(data);
+            //fnloadCurrentJobs();
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+            fnloadCurrentJobs();
+        }
+
+    });
+    
+}
+
+function fnloadStudentHallticket() {
+
+    $.ajax({
+
+        url: "GetHallTicket",
+        dataType: "html",
+        type: "POST",
+        data: "",
+        contentType: "application/json; charset=utf-8",
+        success:
+        function (data) {
+            $("#divStudentHallTicket").html(data);
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+
+        }
+
+    });
+     
+   
+}
+
+function GenerateHallTicket(EventCode, EventId, DegreeName,Percentage) {
+    $('#divLoading').show();
+    $.ajax({
+        url: "GetHallTicket",
+        dataType: "html",
+        type: "POST",
+        data: "{'EventCode':'" + EventCode + "','EventId':'" + EventId + "','DegreeName':'" + DegreeName + "','Percentage':'" + Percentage + "'}",
+        contentType: "application/json; charset=utf-8",
+        success:
+        function (data) {
+            $("#divHallticket").html(data);
+            $("#divHallticket").show();
+            $('#divJobContent').hide();
+        },
+        error: function (jqXHR, textStatus, errorThrown) {
+          
+        }
+    });
+}
+
+$('.btnReset').click(function () {
+    
+    $("#divHallticket").html("");
+    $("#divHallticket").hide();
+    $("#divJobContent").show();
+
+});

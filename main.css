@@ -1,0 +1,125 @@
+body{
+margin: auto;
+
+}
+.header{
+	width: 100%;
+	height: auto;
+	margin: auto;
+}
+.logo{
+	padding-top: -50px;
+}
+.menu-left{
+      display: inline-block;
+      height: 20px;
+	  float: right;
+	  padding-bottom: 200px;
+	
+}
+	nav ul{
+			margin: 10;
+			padding: 5PX 5PX 5PX 5px;
+			display: inline;
+		   list-style: none;
+		   padding-bottom: 50PX;
+		}
+		 nav ul li{
+		background: black;
+	    color: white;
+		display: inline-block;
+		list-style-type: none;
+		padding: 2px 15px;
+	    margin: 10;
+	    text-align: center;
+		font-size: 15px;
+		transition: 300ms;
+		}
+
+
+   nav ul li a{
+   	text-decoration: none;
+   	color: white;
+   	display: block;
+  }
+  button{
+  	padding: 20px;
+  	margin: 10px;
+  }
+.container{
+	background-color: #ccc;
+	margin-top: 50px;
+}
+.main{
+	float: right;
+	font-size: 15px;
+	font-family: verada;
+	color: white;	
+}
+.mainu{
+	background-color: blue;
+}
+    }
+			nav ul{
+			margin: 30px;
+			padding: 0 0 0 15px;
+			display: inline;
+		   list-style: none;
+		}
+		 nav ul li{
+		
+	    color: white;
+		display: inline-block;
+		list-style-type: none;
+		padding: 5px 20px ;
+	    margin: 15px;
+  
+		line-height: 20px;
+		text-align: center;
+		font-size: 35px;
+		transition: 300ms;
+		}
+
+
+   nav ul li a{
+   	text-decoration: none;
+   	color: white;
+   	display: block;
+  }
+   .main2{
+   	background-color: white;
+   	float:left;
+   }
+   .float-right{
+
+   	clear: right;
+   }
+   .rcn{
+   	float:left;
+   	margin-left: 40px;
+   	padding-left: 40px;
+   }
+   .vinod{
+   	margin-top: 10px;
+   	margin-left: 50px
+   }
+   
+
+  .left {
+   	background-color: black;
+   	color: white;
+  float: left;
+  width: 50%;
+  overflow: hidden;
+  padding-right:20px;
+  margin-left: 50px;
+  margin-right: 10px;
+  
+}
+.right{
+
+background-color: black;
+color: white;
+  overflow: hidden;
+  margin-right:55px;
+}

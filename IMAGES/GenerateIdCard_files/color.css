@@ -1,0 +1,28 @@
+.main-menu .menu-menu-container ul li{border-right:1px solid #e6e6e6}
+.main-menu .menu-menu-container > ul > li > a:hover{background-color:#FFF;background-image:none}
+.main-menu .menu-menu-container > ul > li.current-menu-item a:hover{color:#fff;background-image:none}
+.search .advanced-search .slider .ui-slider-range,.boxed-switch,.blog .blog-post-preview .blog-post-preview-left .blog-post-date .day,.blog .blog-post-preview .blog-post-preview-left .blog-post-date .month,.blog .blog-post-preview .blog-post-preview-left .blog-post-date .year,.events-calendar table tr td.event-day div,div#events_list ul li div.event-day-month,.jquery-selectbox .jquery-selectbox-item.listelementhover{background-color:#904799!important}
+.specialisations .specialisation .specialisation-progressbar div {
+    background-color: #904799;
+}
+.company-tabs-wrapper .company-tabs-container,.main-menu-wrapper,.header-2 .header-wrapper,ul.event-tabs{border-bottom:5px solid #eca300}
+.company-tabs-wrapper .company-tabs-container{border-bottom:5px solid #d31145!important}
+.industries-tabs-wrapper{border-top:5px solid #904799}
+.blog .blog-post-preview .blog-post-preview-right{border-left:5px solid #904799}
+ul.company-tabs li.active,ul.event-tabs li.active{background-color:#eca300;border-top:1px solid #eca300;border-left:1px solid #eca300;border-right:1px solid #eca300}
+ul.company-tabs li.active{background-color:#d31145;border-top:1px solid #d31145;border-left:1px solid #d31145;border-right:1px solid #d31145}
+.main-menu .menu-menu-container ul li.current-menu-parent,.main-menu .menu-menu-container ul li ul li a:hover{background-color:#904799;background-image:none;color:#FFF}
+.search .default-search .submit,.search .advanced-search .submit{background:#904799}
+div#header-style-seven .main-menu > div > ul > li.current-menu-item,div#header-style-seven .main-menu > div > ul > li.current-menu-parent{border-bottom:4px solid #eca300}
+div#header-style-seven .main-menu > div > ul > li.current-menu-item > a,div#header-style-seven .main-menu > div > ul > li.current-menu-parent > a,.candidate-meta span,.recruiter_info a,div#job-content-fields div.field-container div.header-fields div.date span,div#job-content-field div.field-container div.header-fields div.date span,.company-text .date span,.company-details .company-address .detail .detail-i{color:#ae3031}
+.main-menu > div > ul > li > ul > li.current-menu-item > a{background-color:#904799;color:#fff}
+div#job-content-fields div.field-container div.header-fields div.date,div#job-content-field div.field-container div.header-fields div.date,.company-text .date{background:none repeat scroll 0 0 #904799}
+a:hover,.languages a.current,.text-colorful,.main-menu .menu-menu-container ul li a:hover,.main-menu .menu-menu-container ul li.active ul li a,.main-menu .menu-menu-container ul li.neighbour-left ul li a,.main-menu .menu-menu-container ul li.neighbour-right ul li a,.main-menu > div > ul > li.current-menu-parent,.jquery-selectbox .jquery-selectbox-list,div#header-style-seven .menu-menu-container > ul > li > 
+a:hover
+,.main-menu .menu-menu-container ul li.current-menu-item ul li a,.footer-widget ul li a,.text-green{color:#904799}
+.main-menu .menu-menu-container ul li.current-menu-item a, a:hover{color:#904799}
+.button-colorful,.button-2-colorful,.header-2 .main-menu ul li.active,.pagination .pagination-buttons a,.button-green{border-bottom:3px solid #904799}
+.widget_omega a,#button-2-green,#button-blog-green,.main-menu > div > ul > li.current-menu-item,.button-2-green{border-color:#F4F4F4 #DDD #904799}
+.main-menu .menu-menu-container ul li ul li  a {
+    color: #fff;
+}
